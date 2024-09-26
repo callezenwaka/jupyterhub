@@ -24,7 +24,7 @@ In general, for a proxy to be usable by JupyterHub, it must:
 
 1. support websockets without prior knowledge of the URL where websockets may
    occur
-2. support trie-based routing (i.e. allow different routes on `/foo` and
+2. support tier-based routing (i.e. allow different routes on `/foo` and
    `/foo/bar` and route based on specificity)
 3. adding or removing a route should not cause existing connections to drop
 
